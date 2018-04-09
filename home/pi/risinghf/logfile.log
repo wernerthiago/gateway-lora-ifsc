@@ -1,0 +1,804 @@
+8
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:19:51 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807950µs) - drift=-102µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:20:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 1
+# CRC_OK: 0.00%, CRC_FAIL: 100.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (66.67% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 367651781
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:20:21 GMT","rxnb":1,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 19 ms
+INFO: [down] PULL_ACK received in 23 ms
+INFO: [down] PULL_ACK received in 21 ms
+
+##### 2018-04-09 02:20:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 2
+# CRC_OK: 0.00%, CRC_FAIL: 100.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 367651781
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:20:51 GMT","rxnb":2,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 19 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807851µs) - drift=-99µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:21:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 427652098
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:21:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 22 ms
+
+##### 2018-04-09 02:21:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 427652098
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:21:51 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 32 ms
+INFO: [down] PULL_ACK received in 38 ms
+INFO: [down] PULL_ACK received in 31 ms
+INFO: [down] PULL_ACK received in 43 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807753µs) - drift=-98µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:22:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 487652423
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:22:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 19 ms
+
+##### 2018-04-09 02:22:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 487652423
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:22:51 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 16 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 21 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807657µs) - drift=-96µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:23:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 547652737
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:23:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 19 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+##### 2018-04-09 02:23:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 1
+# CRC_OK: 0.00%, CRC_FAIL: 100.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 547652737
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:23:51 GMT","rxnb":1,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807561µs) - drift=-96µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:24:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 607653049
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:24:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 21 ms
+
+##### 2018-04-09 02:24:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 607653049
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:24:51 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807467µs) - drift=-94µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:25:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 667653359
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:25:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+##### 2018-04-09 02:25:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 1
+# CRC_OK: 0.00%, CRC_FAIL: 100.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 667653359
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:25:51 GMT","rxnb":1,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807373µs) - drift=-94µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:26:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 727653675
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:26:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 21 ms
+
+##### 2018-04-09 02:26:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 727653675
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:26:51 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 19 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807282µs) - drift=-91µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:27:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 787653986
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:27:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 19 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 19 ms
+
+##### 2018-04-09 02:27:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 787653986
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:27:51 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 19 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 21 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807191µs) - drift=-91µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:28:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 1
+# CRC_OK: 0.00%, CRC_FAIL: 100.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 847654290
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:28:21 GMT","rxnb":1,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+##### 2018-04-09 02:28:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 847654290
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:28:51 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 19 ms
+INFO: [down] PULL_ACK received in 20 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807101µs) - drift=-90µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:29:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 907654601
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:29:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 22 ms
+
+##### 2018-04-09 02:29:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 2 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 907654601
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:29:51 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 21 ms
+INFO: [down] PULL_ACK received in 19 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 21 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:807011µs) - drift=-90µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:30:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 967654911
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:30:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 21 ms
+
+##### 2018-04-09 02:30:51 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 1
+# CRC_OK: 0.00%, CRC_FAIL: 100.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 967654911
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:30:51 GMT","rxnb":1,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 23 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO: [down] PULL_ACK received in 27 ms
+
+INFO: Disabling GPS mode for concentrator's counter...
+INFO: host/sx1301 time offset=(1523240053s:806920µs) - drift=-91µs
+INFO: Enabling GPS mode for concentrator's counter.
+
+
+##### 2018-04-09 02:31:21 GMT #####
+### [UPSTREAM] ###
+# RF packets received by concentrator: 0
+# CRC_OK: 0.00%, CRC_FAIL: 0.00%, NO_CRC: 0.00%
+# RF packets forwarded: 0 (0 bytes)
+# PUSH_DATA datagrams sent: 1 (113 bytes)
+# PUSH_DATA acknowledged: 100.00%
+### [DOWNSTREAM] ###
+# PULL_DATA sent: 3 (100.00% acknowledged)
+# PULL_RESP(onse) datagrams received: 0 (0 bytes)
+# RF packets sent to concentrator: 0 (0 bytes)
+# TX errors: 0
+# TX rejected (collision packet): 0.00% (req:199, rej:0)
+# TX rejected (collision beacon): 0.00% (req:199, rej:0)
+# TX rejected (too late): 0.00% (req:199, rej:0)
+# TX rejected (too early): 0.50% (req:199, rej:1)
+# BEACON queued: 0
+# BEACON sent so far: 0
+# BEACON rejected: 0
+### [JIT] ###
+# SX1301 time (PPS): 1027655269
+src/jitqueue.c:448:jit_print_queue(): INFO: [jit] queue is empty
+### [GPS] ###
+# GPS sync is disabled
+##### END #####
+
+JSON up: {"stat":{"time":"2018-04-09 02:31:21 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+INFO: [up] PUSH_ACK received in 22 ms
+INFO: [down] PULL_ACK received in 20 ms
+INFO
