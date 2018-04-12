@@ -17,3 +17,22 @@ Para que o device execute o script deletelogfile.sh a tabela cron deve ser confi
 ```
 */1 * * * * /home/pi/bin/deletelogfile.sh
 ```
+## Detalhamento do arquivo deletelogfile.sh
+O comando curl é utilizado para enviar um arquivo ao servidor, precisamos apontar para onde está o logfile.log que está sendo alimentado pelo arquivo run.sh. É de extrema importância que o arquivo logfile.log esteja devidamente criado no diretório que estamos enviando via curl ao servidor.
+
+```
+	curl -F "operation=upload" -F "file=@/home/pi/risinghf/packet_forwarder/logfile.log" https://iot.sj.ifsc.edu.br/~thiago.werner/log.php
+```
+As linhas seguintes servem para limpar a memória que o logfile.log está consumindo desnecessáriamente e assim podemos deixar sempre uma informação atulizada em nosso servidor. É bom lembrar que a periodicidade que essas séries de comandos são feitas dependem da configuração feita na crontab.
+
+```
+	cd /home/pi/risinghf/packet_forwarder
+	file=logfile.log
+	minimumsize=90000
+	actualsize=$(wc -c <"$file")
+	if [ $actualsize -ge $minimumsize ]; then
+		cat /dev/null > logfile.log
+	fi
+```
+
+## Detalhamento do arquivo run.sh
