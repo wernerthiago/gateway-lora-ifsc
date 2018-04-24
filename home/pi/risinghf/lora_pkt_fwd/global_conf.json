@@ -196,7 +196,7 @@
 	},
 	"gateway_conf": {
 		"gateway_ID": "AA555A0000000105",
-		"server_address": "191.36.8.51",
+		"server_address": "XXX.XX.X.XX",
 		"serv_port_up": 1700,
 		"serv_port_down": 1700,
 		"keepalive_interval": 10,
@@ -206,7 +206,7 @@
         	"forward_crc_error": false,
         	"forward_crc_disabled": false,
 		"servers": [ {
-			"server_address": "191.36.8.51",
+			"server_address": "XXX.XX.X.XX",
 			"serv_port_up": 1700,
 			"serv_port_down": 1700,
 			"serv_enabled": true
