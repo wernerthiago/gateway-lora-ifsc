@@ -41,3 +41,33 @@ O comando ">> logfile.log &" serve para que todas as informações da execução
 ```
 ./lora_pkt_fwd >> logfile.log &
 ```
+# Configuração necessária para manter o serviço LoRa ativo
+
+## Configurar crontab
+Para que o device execute o script isalive.sh a tabela cron deve ser configurada com a periodicidade que desejamos.
+
+* Abrir a crontab:
+```
+# crontab -e
+```
+* Configuração exemplo enviando de 5 em 5 minuto:
+```
+*/5 * * * * /home/pi/bin/isalive.sh
+```
+
+## Detalhamento do arquivo isalive.sh
+Este arquivo é responsável por avaliar de tempos em tempos se o processo lora_pkt_fwd está ativo ou não. Suas linhas de código são simples e executa o script principal run.sh para fazer o trabalho de reativação do processo.
+
+```
+if pgrep lora_pkt_fwd
+then
+	echo "Is Running"
+	exit 0
+else
+	echo "Executing it again"
+	cd /home/pi/bin
+	./run.sh &
+fi
+
+exit 0
+```
