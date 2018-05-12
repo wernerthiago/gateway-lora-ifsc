@@ -83,8 +83,8 @@ $ chmod +x ./ppp-creator.sh
 $ sudo ./ppp-creator.sh <APN_NAME> <USB_PORT>
 ```
 
-<APN_NAME>: Nome do servidor APN como tim.br se no caso o seu ISP for a TIM Brasil.
-<USB_PORT>: A porta USB/Serial que foi conectada o modem GPRS em seu dispositivo.
+* <APN_NAME>: Nome do servidor APN como tim.br se no caso o seu ISP for a TIM Brasil.
+* <USB_PORT>: A porta USB/Serial que foi conectada o modem GPRS em seu dispositivo.
 
 ## Setup
 É necessário a configuração e conferência de alguns arquivos antes da conexão com a internet funcionar.
