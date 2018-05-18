@@ -183,4 +183,8 @@ provider gprs
 ```
 
 ## Final
-Depois de todas as configurações, é necessário dar reboot no dispositivo para que as configurações façam efeito.
+Depois de todas as configurações, é necessário desativar a interface Wi-Fi e depois dar reboot no dispositivo para que as configurações façam efeito. Para desligar o Wi-Fi devemos executar o seguinte comando:
+
+```
+$ sudo service hostapd stop && sudo service isc-dhcp-server stop && sudo ifconfig wlan0 down
+```
