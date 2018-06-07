@@ -103,16 +103,9 @@ noipdefault
 defaultroute
 replacedefaultroute
 hide-password
-#lcp-echo-interval 30
-#lcp-echo-failure 4
 noauth
 persist
-#mtu 1492
-#maxfail 0
-#holdoff 20
 usepeerdns
-#Optional, make it always appear as ppp2:
-#unit 2
 ```
 
 Nele devemos substituir APN_USERNAME, APN_NAME e USB_PORT com as suas respectivas informações.
@@ -150,12 +143,12 @@ ABORT "NO DIALTONE"
 ABORT "ERROR"
 ABORT "NO ANSWER"
 TIMEOUT 30
-"" AT
+'' AT
 OK ATE0
 OK ATI;+CSUB;+CSQ;+COPS?;+CGREG?;&D2
 OK AT+CGDCONT=1,"IP","APN_NAME"
 OK ATD*99***1#
-CONNECT
+CONNECT ''
 ```
 Devemos substituir a variável APN_NAME para a sua seguinte informação.
 
@@ -169,6 +162,9 @@ Configure nele o APN_USERNAME e APN_PASSWORD, Por exemplo:
 ```
 "APN_USERNAME" * "APN_PASSWORD"
 ```
+
+## Arquivo options
+Substituir o arquivo options pelo adicionado no repositório.
 
 ### Arquivo interfaces
 ```
@@ -187,4 +183,28 @@ Depois de todas as configurações, é necessário desativar a interface Wi-Fi e
 
 ```
 $ sudo service hostapd stop && sudo service isc-dhcp-server stop && sudo ifconfig wlan0 down
+```
+
+# Integridade da conexão
+
+## Configuração da Tabela Cron
+Primeiramente, a ideia é garantir que caso os serviços LoRa se desconectem do servidor e/ou o script keepalive.sh deixe de ser executado, ele continue a ser executado de qualquer maneira.
+
+* Abrir a crontab:
+```
+# crontab -e
+```
+* Configuração exemplo de 5 em 5 minuto:
+```
+*/5 * * * * /home/pi/bin/keepalive.sh &
+```
+## Acrescentada lógica ao lora_pkt_fwd.c
+Foi notado que o gateway estava deixando de se reconectar quando perdia a conexão com o servidor. Para isso, foi adicionado a lógica de que caso não receba respostas do servidor, ele reinicie o encaminhador de pacotes.
+
+```
+printf("# PULL_DATA sent: %u (%.2f%% acknowledged)\n", cp_dw_pull_sent, 100.0 * dw_ack_ratio);
+if(dw_ack_ratio  == 0) {
+	printf("# [WARNING] Server connection was failed, trying to connect again...");
+	main();
+}
 ```
