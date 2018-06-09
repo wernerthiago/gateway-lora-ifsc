@@ -1351,8 +1351,8 @@ int main(void)
         printf("### [DOWNSTREAM] ###\n");
         printf("# PULL_DATA sent: %u (%.2f%% acknowledged)\n", cp_dw_pull_sent, 100.0 * dw_ack_ratio);
 	if(dw_ack_ratio  == 0) {
-		printf("# [WARNING] Server connection was failed, trying to connect again...");
-		main();
+		printf("[WARNING] Server connection failed, trying to reconnect...");
+		exit(EXIT_FAILURE);
 	}
         printf("# PULL_RESP(onse) datagrams received: %u (%u bytes)\n", cp_dw_dgram_rcv, cp_dw_network_byte);
         printf("# RF packets sent to concentrator: %u (%u bytes)\n", (cp_nb_tx_ok+cp_nb_tx_fail), cp_dw_payload_byte);
